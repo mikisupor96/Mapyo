@@ -1,6 +1,3 @@
-# [Mapyo](https://mapyo.herokuapp.com/)
-*Your one-stop for general country-specific information*
-
 ## What is Mapyo?
 
 Mapyo is an application that provides users with general information about countries worldwide. It uses a combination of HTML, JavaScript, jQuery, and Bootstrap on the front-end and PHP on the back-end. The script file makes AJAX requests to various PHP files, each of which retrieves data from different APIs and locally stored JSON data. Additionally, location data is retrieved using the built-in JavaScript API. For instance:
