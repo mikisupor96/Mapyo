@@ -3,10 +3,10 @@
 
 ## What is Mapyo?
 
-Mapyo is a general map information application that is designed to provide the user with various information on all the countries around the globe, for example:
+Mapyo is an application that provides users with general information about countries worldwide. It uses a combination of HTML, JavaScript, jQuery, and Bootstrap on the front-end and PHP on the back-end. The script file makes AJAX requests to various PHP files, each of which retrieves data from different APIs and locally stored JSON data. Additionally, location data is retrieved using the built-in JavaScript API. For instance:
 * Country flag
 * Capital City
-* Spoken Language(s)
+* Spoken Language
 * Region 
 * Currency
 * Population
@@ -28,10 +28,7 @@ Mapyo is a general map information application that is designed to provide the u
  
 ## How does it work?
 
-When the user first visits the website he/she will be prompted with information on the country they are currently living in, provided the location is turned on. Otherwise, the user will have to choose from the select bar at the top, which has all the countries around the globe, the user is given 3 tries this is only because the app uses API keys and when a certain amount of users is reached no data will be received back. You can also click on the cities scattered around the country to get a link to a live camera in the city.
+Upon visiting the website for the first time, the user will receive a prompt to select their current location. If location services are enabled, the user's country will be automatically detected. If not, the user can choose from a selection bar at the top of the page that lists all countries around the world. The user will have three attempts to select their country, as the app uses API keys that may limit data availability after a certain number of users. Additionally, by clicking on the cities displayed on the map, the user can access a link to a live camera feed of that city.
 
-## Technical Information
 
-Mapyo uses HTML, Javascript, Jquery, Bootstrap on the front end, and PHP on the back end. The script file makes ajax requests to PHP files that each retrieve data from various API and locally stored JSON data. The location data is retrieved using the baked-in Javascript API.
 
-> Hope you like my app and if you have any questions/suggestions feel free to contact me at mihainstein@gmail.com  :smiley:
