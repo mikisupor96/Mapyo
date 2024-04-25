@@ -4,7 +4,7 @@
 
 # What languages does Mapyo use?
 
-- The application is built using `HTML`, `CSS`, `Javascript`, `Jquery`, `Bootstrap`, `PHP`, and `MySql`. The map is rendered using [Leaflet](https://leafletjs.com/), which is a Javascript library specifically designed for map rendering.
+- The application is built using `HTML`, `CSS`, `Javascript`, `Jquery`, `Bootstrap` and `PHP`. The map is rendered using [Leaflet](https://leafletjs.com/), which is a Javascript library specifically designed for map rendering.
 
 # Where does the information come from?
 
